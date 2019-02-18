@@ -1,12 +1,21 @@
-== Exceptions in Popular Packages of 2018-2019
+== Exception Handling in 100 Popular Python Packages for the last one year Feb 2018- Feb 2019
 
-For each of the top 100 packages of 2018-2019 (https://hugovk.github.io/top-pypi-packages/), this document gives the total count of exception handlers in the package, total number of **re-raises* and total number of cases where exception handling is done with `Exception` or `BaseException`
+The package list is obtained from https://hugovk.github.io/top-pypi-packages/
+
+Source code of each of the packages in the list was parsed for exception handling statements and blocks.
+
+Total count of `classes` in all the exception handlers are accumulated into `Total Exception Handlers`.
+
+
+Total number of **re-raises** in the exception handlers are counted into `Total Re-raises`
+
+Total number of cases where exception handling is done for `Exception` or `BaseException` directly is in `Total BaseException Handlers`
 
 
 
 [width="90%",cols="d,^,^,^",options="header",style="literal"]
 |==========================
-| Package | Total Exception Count | Total Re-raise | `BaseException` Count
+| Package | Total Exception Handlers  | Total Re-raise | Total BaseException Handlers
 | pip | 727 | 160 (22%) | 49 (6%)
 | urllib3 | 121 | 33 (27%) | 5 (4%)
 | botocore | 247 | 70 (28%) | 8 (3%)

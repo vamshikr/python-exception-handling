@@ -13,7 +13,7 @@ Total number of cases where exception handling is done for `Exception` or `BaseE
 
 
 
-[width="90%",cols="d,^,^,^",options="header",style="literal"]
+[width="90%",cols="^,d,^,^,^,^",options="header",style="literal"]
 |==========================
 | Number | Package | Lines of Code | Total Exception Handlers  | Total Re-raise Statements | Total BaseException Handlers
 | 1 | pip | 67677 | 727 | 160 (22%) | 49 (6%)
